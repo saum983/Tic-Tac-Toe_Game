@@ -29,12 +29,3 @@ A simple browser-based **Tic Tac Toe** game where two players can play against e
 - **JavaScript** – Handles game logic, win conditions, and resets.
 
 ---
-
-##  Future Improvements
-
-- Add AI to play against the computer.
-- Implement score tracking for multiple rounds.
-- Improve animations and effects for better user experience.
-- Add sound effects for clicks and win notifications.
-
----
