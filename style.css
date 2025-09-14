@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url("playful-tic-tac-toe-free-vector.jpg");
+    background-size: cover;
+    /* background-color: #548687; */
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 12vmin;
+    color: rgb(21, 0, 180);
+    /* background-image: url("single-flower-cherry-isolated-white-background-30261849.jpg");
+    background-size: cover; */
+    background-color: #000000;
+}
+
+#resetBtn {
+    padding: 35px 50px;
+    font-size: 50px;
+    background-color: #191913;
+    color: rgb(54, 29, 246);
+    border-radius: 1rem;
+    border: none;
+}
+
+#newBtn {
+    padding: 35px 50px;
+    font-size: 50px;
+    background-color: #191913;
+    color: rgb(54, 29, 246);
+    border-radius: 1rem;
+    border: none;  
+}
+
+#msg {
+    color: black;
+    font-size: 100px;
+    animation: glow 1s infinite alternate; /* Apply glowing effect */
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #ff0, 0 0 10px #ff4500; }
+    50% { text-shadow: 0 0 10px #00ff00, 0 0 20px #ff1493; }
+    100% { text-shadow: 0 0 5px #00ffff, 0 0 15px #ff0; }
+}
+
+.msgContainer {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
