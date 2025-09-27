@@ -1,6 +1,6 @@
 #  Tic Tac Toe Game
 
-A simple browser-based **Tic Tac Toe** game where two players can play against each other. The game highlights the winning combination and allows players to reset and start a new match. It’s a beginner-friendly project focused on practicing JavaScript, HTML, and CSS.
+A simple browser-based **Tic Tac Toe** game where two players can play against each other. The game highlights the winning combination and allows players to reset and start a new match.
 
 ---
 
